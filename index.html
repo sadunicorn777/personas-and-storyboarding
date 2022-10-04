@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+      <!--<button onclick="updatePage()">Fruit Sugar Facts</button>-->
+      <div class="container">
+        <div>
+        <div class = "topbar">
+          <div class="topbar-accent"></div>
+          <div class="topbar-text">
+            CSCI 1300: User Interfaces and User Experiences
+          </div>
+        </div>
+        <h1>Assignment 1</h1> 
+        <h1 class="second">Personas and Storyboarding</h1>
+      </div>
+      <div>
+        <div class="section-title">➛ Overview</div>
+        <p>In this assignment I selected an interface, observed three users interact with this interface, interviewed the users based on their experiences, created personas based on the users, and illustrated a storyboard for one of the personas. The interface I chose is a <b>BROWN UNIVERSITY RESIDENCE HALL ELEVATOR.</b></p>
+
+        <div class="section-title">➛ Interface Diagram</div>
+        <img src="assets/Diagram.png"></img>
+        <p>Most of the residence hall elevators at Brown University share the same template of characteristics, which are the ones considered in this project. These are an exterior panel to call the elevator and specify a direction of travel, an interior bar that may be gripped, and an interior panel of buttons to either specify a desired destination or request emergency assistance. Most elevators also include an interior ID recognition device which affords the user access to the buttons. Some do not; an example is the Minden Hall elevator. </p>
+
+        <p>The residence hall elevator is trying to solve the problem of long and/or arduous ascension or descension processes for users who are commuting from the building entrance to their place of residence, or vice versa. </p>
+
+        <div class="section-title">➛ Observations</div>
+
+        <p> ➊ I observed variation in the amounts of time taken by the elevator to open up to each user after the user initially called the elevator. While waiting, two users waited in silence. In one case there was another person also waiting for the elevator whom the user elected not to speak to. Another user browsed their phone. </p>
+        <p> ➋ For the first user, the elevator did not require ID recognition. When entering the elevator, one user fumbled to locate their ID while another had the ID ready.</p> 
+        <p> ➌ Two users swiped their ID in the ID recognition device; one of them accidentally oriented the ID incorrectly. One of them asked the other person which floor they needed to go to and pressed both buttons without trouble. All users pressed the button of their desired floor without trouble. </p>
+        <p> ➍ All users ascended the elevator in silence. One user continued to browse their phone. </p>
+        <p> ➎ All users exited the elevator silently and calmly once the destination was reached. </p>
+
+        <div class="section-title">➛ Interviews</div>
+
+        <p> <b>Please tell me about your purpose for using this elevator. Go into as much detail as you want.</b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u>'s purpose for using the elevator is to travel eight floors to her residence in Minden Hall. Being on the eighth floor, taking the stairs is unfathomable to her. </p>
+        <p class="resp"><u>User B</u> uses the Wellness Center elevator the most frequently for the purpose of visiting friends; he is not a resident of the Wellness Center which affects his elevator experience.</p>
+        <p class="resp"><u>User C</u> uses the Greg B elevator only when she is hauling cargo such as storage or groceries, or accompanying friends.</p>
+        <p class="resp">Patterns: The elevator is used to facilitate socialization. </p>
+        </div>
+
+        <p> <b>How often do you use the elevator? Why this frequency? </b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> typically uses the elevator every day because her schedule involves mobility out of her residence, and the stairs would be unnecessarily exhausting: a hindrance to her psyche.  </p>
+        <p class="resp"><u>User B</u> uses the elevator at least 2-3 times a week because many of his friends live in the Wellness Center.</p>
+        <p class="resp"><u>User C</u> uses the elevator very infrequently.  In the elevator, she doesn't feel in control of her own pace so she takes the stairs. Furthermore, the stairs are closer to the entrance and closer to her place of residence (elevator's proximity is too far). </p>
+        <p class="resp">Patterns: Preference of elevator over stairs except with User C </p>
+      </div>
+
+        <p> <b>Are you typically alone when using the elevator, or not? Why? </b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> is not typically alone, as she shares the elevator with other residents of Minden. She speculates it's because Minden has one elevator for 200 people.   </p>
+        <p class="resp"><u>User B</u>'s experience varies, he occasionally finds himself with other people maybe 40% of the time. He speculates this is because Wellness only has 3 residence floors so many people do take the stairs. </p>
+        <p class="resp"><u>User C</u> is most frequently alone because the elevator is not the “default” in her place of residence, Greg B. </p>
+        <p class="resp">Patterns: Elevators tend to involve accompaniment by strangers, though sometimes infrequently </p>
+        </div>
+
+        <p> <b>Do you notice any differences at all in your experience, expectations, challenges, or motives when you're alone versus when there is company? </b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> experiences awkward elevator conversations when there is company. Her motive for making conversation is to break awkward silences.   </p>
+        <p class="resp">“People-phobic”, <u>User B</u> feels more at ease when he has the elevator to himself. If there's company of strangers he's motivated to make it less awkward. If the people are friends it's more painless. </p>
+        <p class="resp"><u>User C</u> feels isolated when she's in the elevator alone. When there's others it provides the opportunity for conversation. </p>
+        <p class="resp">Patterns: Users do not enjoy awkward elevator conversations, User C doesn't really mind </p>
+      </div>
+
+        <p> <b>Are there any other circumstances that you notice make your experience with the elevator different? </b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> notes the waiting time may vary based on the time of day but it is usually considerable.</p>
+        <p class="resp">If <u>User B</u> cannot access the elevator because he is barred by the ID swiper, he will take the stairs (a last resort). If it's more than 3 floors he might be more reluctant to take the stairs. </p>
+        <p class="resp"><u>User C</u>'s choice of transportation is influenced heavily by her companions and acquaintances' choices, so when they took the stairs she took the stairs, which was most frequent. </p>
+        <p class="resp">Patterns: No patterns </p>
+      </div>
+
+        <p> <b>Ok, let's dive a little deeper. Tell me about your experience directly prior to entering the elevator. What are your expectations?  </b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> usually waits at least two minutes for the elevator. She expects the elevator will eventually arrive and she expects it to open and to see other people in the elevator when it opens, either stepping out or remaining inside.</p>
+        <p class="resp"><u>User B</u> expects to wait for someone to swipe him up the elevator. He expects he may have to make an SOS call for the swipe. He anticipates a small possibility that he'll be stuck with the stairs. </p>
+        <p class="resp"><u>User C</u> is expecting a solitary journey. She is expecting that there might be a spontaneous encounter with an acquaintance because you never know who is about to step out of the elevator. </p>
+        <p class="resp">Patterns: Users expect a wait time and possible encounters with other people </p>
+      </div>
+
+        <p> <b>Any particular motives during this time, things you're trying to do?</b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> is trying to appreciate the advances in technology that enable her to use the elevator, despite the fact that she is frustrated with the efficiency of the elevator.</p>
+        <p class="resp">If there's strangers, <u>User B</u> is focused on making things less awkward.</p>
+        <p class="resp"><u>User C</u> is focused on keeping track of the items she is probably carrying. </p>
+        <p class="resp">Patterns: No patterns </p>
+      </div>
+
+        <p> <b>What actually ends up happening during this time? </b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> waits, feeling annoyed if the waiting time is long.</p>
+        <p class="resp"><u>User B</u> waits, but the waiting time is not a hindrance.</p>
+        <p class="resp"><u>User C</u> waits, unappreciative of the waiting time because she prefers control over her pace. </p>
+        <p class="resp">Patterns: The waiting time can be an annoyance. </p>
+      </div>
+
+        <p> <b>Are there any challenges you typically encounter during this time?  </b> </p>
+        <div class="response-container">
+        <p class="resp">Other than the lack of efficiency, <u>User A</u> is anxious that she may encounter someone she can't stand when the elevator door opens.</p>
+        <p class="resp">For <u>User B</u>, none that were not already mentioned.</p>
+        <p class="resp">For <u>User C</u>, none that were not already mentioned.</p>
+        <p class="resp">Patterns: The waiting period doesn't pose many challenges other than time</p>
+      </div>
+
+        <p> <b>Now what about when you're inside the elevator to the time you exit. What are your expectations for the experience?</b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> expects to be transported to her destination. She expects that the interior buttons will work which makes it extra annoying when they don't.</p>
+        <p class="resp"><u>User B</u> expects that the elevator will be clean and he expects the buttons to work, enabling him to get from Point A to Point B quickly. This expectation is influenced by his perception of Wellness as a new and modern building so he expects everything will be functional as well. </p>
+        <p class="resp"><u>User C</u> expects to arrive at her destination. She does not expect to encounter many acquaintances. She expects the elevator to work smoothly. </p>
+        <p class="resp">Patterns: Expectation for the elevator to work correctly and that the interface will do what it suggests it will do.</p>
+      </div>
+
+        <p> <b>Any particular motives during this time, things you're trying to do? Think about exiting the elevator too.</b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> is trying to appreciate her elevator experience because she finds it grounding. She makes a point of NOT using her phone to appreciate the experience.</p>
+        <p class="resp"><u>User B</u> is motivated to assuage his boredom if he's alone. He might go on his phone. He is also motivated to avoid a cramming situation by gauging the amount of people in the elevator to determine if it's too much, and to stand at the very far end of the elevator to be as far from a stranger as possible. </p>
+        <p class="resp"><u>User C</u> is focused on aligning her cargo correctly because sometimes the elevator's size poses an obstacle for storage. She is motivated to be on the go at all times. She is also motivated to read all the words she encounters in the elevator. This brings her attention to the inspection certificate, which evokes suspicion in the elevator's reliability if it's expired. She also observes the weight limit / maximum capacity and thinks the weight limit is unhelpful because it's impossible to know how much everyone weighs. The capacity is a more helpful notation. </p>
+        <p class="resp">Patterns: The size of the elevator may pose an obstacle, users are motivated to avoid cramming. Users are motivated to preoccupy themselves (contemplation, phone, reading surroundings)</p>
+      </div>
+
+        <p> <b>What actually ends up happening inside the elevator, and upon your exit? </b> </p>
+        <div class="response-container">
+        <p class="resp"><u>User A</u> feels strangely relieved upon exiting the elevator. It feels like a release of the anticipation that built up during the journey. Her elevator does not require an ID swipe.</p>
+        <p class="resp"><u>User B</u> notices that the elevator size feels too small. Sometimes he forgets about the ID swiper and has to make an SOS call but he appreciates the added layer of security.  </p>
+        <p class="resp"><u>User C</u> finds the ID swipe a hassle, because she probably already put away her ID. It is also difficult to know/remember the orientation of the ID. She appreciates the mildly reflective nature of the elevator because this facilitates self reflection. It also makes the space appear larger, reducing claustrophobia.  </p>
+        <p class="resp">Patterns: The ID swiper is a hassle. Users enjoy self reflection</p>
+      </div>
+
+        <p> <b>Any particular challenges you encounter inside the elevator or while exiting?</b> </p>
+        <div class="response-container">
+        <p class="resp">Other than the awkward elevator conversations, <u>User A</u> notes the buttons sometimes don't work.</p>
+        <p class="resp"><u>User B</u> is concerned about the ventilation, because elevator coughs are disgusting especially in a COVID context. Even if he is not in the danger zone of one person’s cough, there is still a possibility of germs on the interface. Also, if one person stinks, the entire elevator stinks because there's no air purification system.</p>
+        <p class="resp"><u>User C</u> says the ID swiper sometimes presented technical difficulties. Sometimes the elevator doors would close quickly which is inconvenient if hauling storage. Sometimes the buttons were also unresponsive. User C’s movement was inhibited inside the elevator and there was also the threat of claustrophobia. </p>
+        <p class="resp">Patterns: Technical difficulties</p>
+      </div>
+
+      <div class="section-title">➛ Personas</div>
+
+      <p><b>1. EXTROVERTED ERNIE</b></p>
+      <p>○ <u>Description:</u> Ernie has many friends and a busy schedule that keeps him mobile, but he enjoys it and is deeply involved with the people surrounding him. </p>
+      <p>○ <u>Problems faced:</u> The ID swiper presents an obstacle to Ernie when he is visiting friends who live in another residence hall, and technical difficulties make the problem worse. With his busy schedule Ernie is constantly using the elevator and prefers it over the stairs, so problems like these are especially inconvenient. While waiting for and inside the elevator with strangers, he makes an effort to lessen the awkwardness because he hates awkwardness. </p>
+      <p>○ <u>Representation:</u> Ernie represents both User B and User C who have social motivations when using the elevator, whether it is a vehicle to visit friends (B) or a space to enjoy conversations (C). Ernie’s mobile nature represents all three users: User A’s busy schedule, User B who hops residence halls, and User C who enjoys being on the go and in control of her movement. Ernie also represents User A and User B who are conscious of awkward elevator conversations and try to make them less awkward. </p>
+
+      <div class="response-container">
+        <p class="resp">THINKS: 🅐 "Wow I am barely gonna be at home at all today." 🅑 "F*** I forgot about the ID swiper again." 🅒 "Ah ok time to make conversation with this girl since we’re both waiting awkwardly." </p>
+        <p class="resp">FEELS: 🅐 Extremely motivated by his busy schedule and all of the people he is going to see. 🅑 Uncomfortable in awkward silences.  🅒 Extrospective rather than introspective (absorbs energy from his surroundings and thinks about other people and activities rather than his own mind). </p>
+        <p class="resp">SAYS: 🅐 "Sure, let me come over to yours." 🅑 "I have like three meetings with my startup team and then a business pitch, but let me give you my contact and we can figure out a time." 🅒 "Damn it’s getting so cold already, oh are you doing Hack@Brown? No way me too!" </p>
+        <p class="resp">DOES: 🅐 Visits at least 2 foreign residence halls per day 🅑 Forgets about little things like the ID swiper because he’s more focused on his bigger plans and events 🅒 Makes an effort to make people feel comfortable and at ease</p>
+      </div>
+
+      <p><b>2. STRESSED SERENA</b></p>
+      <p>○ <u>Description:</u> Serena faces obstacles that make her commute more taxing like a high residence and lots of cargo, but self reflection helps relieve her stress. </p>
+      <p>○ <u>Problems faced:</u> Serena lives on the highest floor of her residence hall and is frequently loading heavy cargo like groceries or storage, so she needs to use the elevator and faces some physical challenges while doing so. This makes the waiting time even more of a problem, because she’s usually carrying something. All of this stress is a problem for Serena but she combats it with self reflection and meditation.</p>
+      <p>○ <u>Representation:</u> Serena's physical obstacles represent User A and C, who have a long elevator commute (A) and use the elevator to haul cargo (C). Serena’s irritation with the wait time is also representative of Users A and C who cite it as an annoyance. Her stress represents User B who finds the elevator “mentally strenuous”, and her tendency towards meditation represents Users A and C who use the elevator to facilitate self reflection. </p>
+
+      <div class="response-container">
+        <p class="resp">THINKS: 🅐 “I have so much to do today, I don’t know how I’m ever going to get time to myself.” 🅑 “I should really ask this person for help carrying my stuff up the elevator, the waiting time is almost unbearable now.” 🅒 “Finally in the elevator, it was a hassle but I’m actually really grateful that my hall even has an elevator.” </p>
+        <p class="resp">FEELS: 🅐 Comfortable in silence with others and to just enjoy her surroundings. 🅑 Stressed and excited to relax and watch Netflix after a hard day’s work. 🅒 Irritated that there is only one elevator in her building and she has a long commute in it.  </p>
+        <p class="resp">SAYS: 🅐 “Would you mind helping me carry this up?” 🅑 “I’m so sorry, I honestly don’t have time today. How about tomorrow?” 🅒 “Could you press floor 8 please? ……………………….. [silence].........” </p>
+        <p class="resp">DOES: 🅐 Uses the reflective walls of the elevator to take mirror selfies when she’s alone. 🅑 Pushes evening plans to the next day so she can have a night in. 🅒 Enjoys the elevator ride as much as possible, reading surrounding text, and not going on her phone.</p>
+      </div>
+
+      <div class="section-title">➛ Storyboard</div>
+      <p>This is a storyboard for the persona Extroverted Ernie.</p>
+      <img src="assets/Storyboard.png"></img>
+      <p>➊ Ernie wakes up one morning and looks at his phone which shows a bunch of reminders regarding his events and obligations, as well as a text from a friend asking him to come over and study. </p>
+      <p>➋ Ernie responds “Sure” and heads over to his friend’s residence, the Wellness Center. </p>
+      <p>➌ Ernie enters the door of the Wellness Center. </p>
+      <p>➍ Ernie presses a button on the elevator’s outer panel to call the elevator. </p>
+      <p>➎ The elevator opens and Ernie joins a girl he doesn’t know in the elevator. </p>
+      <p>➏ Ernie notices the ID swiper and remembers he cannot access it. </p>
+      <p>➐ Ernie turns to the girl and asks “Hey, would you mind swiping me up to floor 4?” </p>
+      <p>➑ The girl swipes for him and presses the button reading “4”. Ernie, not one for awkward silences, decides to make conversation. “Oh are you doing Hack@Brown?” he asks, noticing her tote bag. “No way me too!” </p>
+      <p>➒ We can assume the conversation continues until the elevator reaches its destination. Ernie steps out the elevator saying, “Well nice to meet you, totally we should definitely connect on a project, I could use your help.” </p>
+
+      </div>
+      </div>
+
+  </body>
+
+</html>
